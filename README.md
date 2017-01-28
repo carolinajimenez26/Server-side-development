@@ -35,12 +35,30 @@ It is a improve of server-5.js using the Router object.
 
 **server-7.js:**
 
-Is the assignment1, where I implemented _rounting_ requiring it from the principal module. 
+Is the assignment1, where I implemented _rounting_ requiring it from the principal module.
+
+**node-express-gen/:**
+
+Is a server constructed with express-generator. It serves the same of server-7.js.
+
+For building one run:
+
+```
+sudo npm install express-generator -g
+
+express node-express-gen
+
+npm install
+
+npm start
+```
 
 ### Running the servers:
 
 
 ```
+npm install express morgan body-parser
+
 node server-number.js
 ```
 
