@@ -61,8 +61,6 @@ npm start
 
 **[node-mongoDB/simpleServer/](https://github.com/carolinajimenez26/Server-side-development/tree/master/node-mongoDB/simpleServer):**
 
-* simpleServer/:
-
   Is a server using simple connection with [mongoDB](https://www.mongodb.com/).
 
 ### Running the server:
@@ -73,7 +71,7 @@ npm install express morgan body-parser
 node server-number.js
 ```
 
-** [node-mongoDB/simpleServer2/](https://github.com/carolinajimenez26/Server-side-development/tree/master/node-mongoDB/simpleServer2): **
+**[node-mongoDB/simpleServer2/](https://github.com/carolinajimenez26/Server-side-development/tree/master/node-mongoDB/simpleServer2):**
 
   Server that inserts, modify and consults in a collection of a DB.
 
