@@ -53,13 +53,31 @@ npm install
 npm start
 ```
 
-### Running the servers:
+**node-mongoDB/:**
 
+* simpleServer/:
+
+  Is a server using simple connection with [mongoDB](https://www.mongodb.com/).
+
+### Running the server:
 
 ```
 npm install express morgan body-parser
 
 node server-number.js
+```
+
+* simpleServer2/:
+
+  Server that inserts, modify and consults in a collection of a DB.
+
+### Running the server:
+
+```
+npm install mongodb --save
+
+npm install assert --save
+
 ```
 
 ______________________________________________________
