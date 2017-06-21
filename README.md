@@ -37,7 +37,7 @@ It is a improve of server-5.js using the Router object.
 
 Is the assignment1, where I implemented _rounting_ requiring it from the principal module.
 
-### To run the previous ones servers: 
+### To run the previous ones servers:
 
 ```
 node <name of the server>
@@ -82,8 +82,24 @@ npm install mongodb --save
 
 npm install assert --save
 
+node server-number.js
+
 ```
 
+**[node-mongoose](https://github.com/carolinajimenez26/Server-side-development/tree/master/node-mongoose):**
+
+  Starting with mongoose and the definitions of Schemas mongodb.
+  server1.js and server2.js do the same with different methods.
+  server3.js uses an document inside another with Schemas.
+
+### Running the server:
+
+```
+npm install
+
+node server-number.js
+
+```
 ______________________________________________________
 
 See and learn more at:
