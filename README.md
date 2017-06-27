@@ -153,6 +153,19 @@ node server-3.js
 
 ```
 
+**[rest-server-passport](https://github.com/carolinajimenez26/Server-side-development/tree/master/rest-server-passport):**
+
+  Authentication using [passport](http://passportjs.org/) and [JSON Web Tokens (JWB)](https://jwt.io/).
+
+### Running the server:
+
+```
+npm install
+
+npm run start
+
+```
+
 ______________________________________________________
 
 See and learn more at:
