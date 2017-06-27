@@ -100,6 +100,19 @@ npm install
 node server-number.js
 
 ```
+
+**[rest-server](https://github.com/carolinajimenez26/Server-side-development/tree/master/rest-server):**
+
+  Server that handles some operations with users, using mongoose.
+
+### Running the server:
+
+```
+npm install
+
+node server-number.js
+
+```
 ______________________________________________________
 
 See and learn more at:
