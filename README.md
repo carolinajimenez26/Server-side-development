@@ -113,6 +113,19 @@ npm install
 npm run start
 
 ```
+
+**[basic-auth](https://github.com/carolinajimenez26/Server-side-development/tree/master/basic-auth):**
+
+  Basic authorization to access to the server.
+
+### Running the server:
+
+```
+npm install
+
+node server.js
+
+```
 ______________________________________________________
 
 See and learn more at:
