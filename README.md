@@ -110,7 +110,7 @@ node server-number.js
 ```
 npm install
 
-node server-number.js
+npm run start
 
 ```
 ______________________________________________________
