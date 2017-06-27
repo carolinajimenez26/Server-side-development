@@ -12,7 +12,7 @@ router.route('/')
   });
 })
 
-.post(Verify.verifyOrdinaryUser, function (req,res,next) {
+.post(Verify.verifyAdmin, function (req,res,next) {
   Dish.create(req.body, function (err, data){
     if (err) throw err;
     res.writeHead(200, {
@@ -23,7 +23,7 @@ router.route('/')
   });
 })
 
-.delete(Verify.verifyOrdinaryUser, function (req,res,next) {
+.delete(Verify.verifyAdmin, function (req,res,next) {
   Dish.remove({}, function(err,resp){
     if (err) throw err;
     res.json(resp);
