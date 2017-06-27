@@ -114,7 +114,7 @@ npm run start
 
 ```
 
-**[basic-auth](https://github.com/carolinajimenez26/Server-side-development/tree/master/basic-auth):**
+**[basic-auth/server-1](https://github.com/carolinajimenez26/Server-side-development/tree/master/basic-auth/server-1.js):**
 
   Basic authorization to access to the server.
 
@@ -123,9 +123,36 @@ npm run start
 ```
 npm install
 
-node server.js
+node server-1.js
 
 ```
+
+**[basic-auth/server-2](https://github.com/carolinajimenez26/Server-side-development/tree/master/basic-auth/server-2.js):**
+
+  Basic authorization to access to the server and quick start with [cookies and signed cookies](https://github.com/expressjs/cookie-parser).
+
+### Running the server:
+
+```
+npm install
+
+node server-2.js
+
+```
+
+**[basic-auth/server-3](https://github.com/carolinajimenez26/Server-side-development/tree/master/basic-auth/server-3.js):**
+
+  Basic authorization to access to the server using [express sessions](https://github.com/expressjs/session).
+
+### Running the server:
+
+```
+npm install
+
+node server-3.js
+
+```
+
 ______________________________________________________
 
 See and learn more at:
