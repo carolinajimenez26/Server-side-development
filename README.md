@@ -166,6 +166,19 @@ npm run start
 
 ```
 
+## [mongoose-population](https://github.com/carolinajimenez26/Server-side-development/tree/master/mongoose-population):
+
+  Here you can see how to reference documents with [mongoose population](http://mongoosejs.com/docs/populate.html). This server has users authentication.
+
+### Running the server:
+
+```
+npm install
+
+npm run start
+
+```
+
 ______________________________________________________
 
 See and learn more at:
