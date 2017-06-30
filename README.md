@@ -179,6 +179,29 @@ npm run start
 
 ```
 
+## [https-server](https://github.com/carolinajimenez26/Server-side-development/tree/master/https-server):
+
+  Example of a server that uses _https_ and redirects the traffic to it.
+
+### Running the server:
+
+```
+npm install
+
+npm run start
+
+```
+
+### Creating secret key and a certificate:
+
+```
+openssl genrsa 1024 > private.key
+openssl req -new -key private.key -out cert.csr
+openssl x509 -req -in cert.csr -signkey private.key -out certificate.pem
+```
+
+See an example [here](http://blog.ayanray.com/2015/06/adding-https-ssl-to-express-4-x-applications/).
+
 ______________________________________________________
 
 See and learn more at:
