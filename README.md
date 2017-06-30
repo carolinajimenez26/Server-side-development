@@ -202,6 +202,38 @@ openssl x509 -req -in cert.csr -signkey private.key -out certificate.pem
 
 See an example [here](http://blog.ayanray.com/2015/06/adding-https-ssl-to-express-4-x-applications/).
 
+
+## [OAuth-server](https://github.com/carolinajimenez26/Server-side-development/tree/master/OAuth-server):
+
+  Authenticating users with [Facebook](https://www.facebook.com/) using [OAuth](https://oauth.net/) and
+  [passport-facebook](https://github.com/jaredhanson/passport-facebook).
+
+  You have to register your app in [facebook developers](https://developers.facebook.com/apps) and update the _clientID_
+  with the identification of the app and the _clientSecret_ for the secret application password provided by Facebook in
+  [our server](https://github.com/carolinajimenez26/Server-side-development/tree/master/OAuth-server/config.js) and  
+  to run the server.
+  You also need to indicate in the configuration of the app in facebook the [callbackURL](https://github.com/carolinajimenez26/Server-side-development/tree/master/OAuth-server/config.js)
+  that you are using when the user login successfuly with the app.
+
+### Running the server:
+
+```
+npm install
+
+npm run start
+
+```
+
+See another example [here](https://scotch.io/tutorials/easy-node-authentication-facebook) and [here](http://mherman.org/blog/2013/11/10/social-authentication-with-passport-dot-js/#.WVZznbO4s_N).
+
+You can also make authentications with [Twitter](https://twitter.com/) using [passport-twitter](https://github.com/jaredhanson/passport-twitter),
+with [Google](https://www.google.com.co/) using [passport-google-oauth](https://github.com/jaredhanson/passport-google-oauth).
+
+
+## Notes:
+
+In the servers that uses [mongoDB](https://www.mongodb.com/) remember to run the mongo daemon before running the server.
+You can check it [here](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/).
 ______________________________________________________
 
 See and learn more at:
