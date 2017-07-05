@@ -230,6 +230,20 @@ You can also make authentications with [Twitter](https://twitter.com/) using [pa
 with [Google](https://www.google.com.co/) using [passport-google-oauth](https://github.com/jaredhanson/passport-google-oauth).
 
 
+## [loopback-server](https://github.com/carolinajimenez26/Server-side-development/tree/master/loopback-server):
+
+  Server using [LoopBack](http://loopback.io).
+
+### Running the server:
+
+```
+npm install
+
+node .
+
+```
+
+
 ## Notes:
 
 In the servers that uses [mongoDB](https://www.mongodb.com/) remember to run the mongo daemon before running the server.
